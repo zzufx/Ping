@@ -33,7 +33,8 @@ public class PingEventHandler {
      * @param component The ChatComponent to change.
      */
     private void playSoundSendMessage(IChatComponent component) {
-        Minecraft.getMinecraft().getSoundHandler().playSound(Ping.SOUND);
+        Minecraft mc = Minecraft.getMinecraft();
+        mc.getSoundHandler().playSound(new PingSound(Config.soundType));
         if (Ping.customColor != null) {
             component.getChatStyle().setColor(Ping.customColor);
         }

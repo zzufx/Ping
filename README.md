@@ -1,3 +1,13 @@
+# This fork
+If you happened to get multiple messages that mentioned you in a very short amount of time, you would only see the first one and the rest would never appear (but the sound would still play).
+
+Console complained about:
+```
+Error executing task
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: value already present: santa.ping.PingSound@(...)
+```
+so this fixes that!
+
 # Ping! :bell:
 ![Ping! Downloads](http://modshields.herokuapp.com/totaldl?id=chat-ping)
 ![Ping! Latest 1.8 Version](http://modshields.herokuapp.com/latestversion?id=chat-ping&mcversion=1.8)
