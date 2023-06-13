@@ -23,7 +23,7 @@ public class Config {
         config.addCustomCategoryComment("Sound Type", COMMENT);
         soundType = config.get("Sound Type", "The sound type", "blop").getString();
         config.addCustomCategoryComment("Custom Names", "Separate each name with a semicolon ;");
-        customNames = config.get("Custom Names", "Custom names to be pinged as", "").getString();
+        customNames = config.get("Custom Names", "Custom names to be pinged as", "").getString().toLowerCase();
         config.addCustomCategoryComment("Custom Color", "The color to highlight the text. Can be any of the " +
           "following: aqua, black, blue, dark aqua, dark blue, dark gray, dark grey, dark green, dark purple, " +
           "dark red, gold, gray, grey, green, light purple, red, yellow");

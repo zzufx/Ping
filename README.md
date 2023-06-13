@@ -8,6 +8,8 @@ java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: val
 ```
 so this fixes that!
 
+**June 13, 2023:** Now this also fixes custom names not working!
+
 # Ping! :bell:
 ![Ping! Downloads](http://modshields.herokuapp.com/totaldl?id=chat-ping)
 ![Ping! Latest 1.8 Version](http://modshields.herokuapp.com/latestversion?id=chat-ping&mcversion=1.8)
