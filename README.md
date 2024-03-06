@@ -8,9 +8,12 @@ java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: val
 ```
 so this fixes that!
 
-**June 13, 2023:** Now this also fixes custom names not working!
+**June 13, 2023:** Now this also fixes non-lower case custom names not working!
 
-# Ping! :bell:
+**Match 6, 2024:** Now uses regex and adds some rules so that you don't get mentioned by your own messages.
+
+# Original description
+## Ping! :bell:
 ![Ping! Downloads](http://modshields.herokuapp.com/totaldl?id=chat-ping)
 ![Ping! Latest 1.8 Version](http://modshields.herokuapp.com/latestversion?id=chat-ping&mcversion=1.8)
 ![Ping! Wiki Completeness](http://modshields.herokuapp.com/wiki?article=Ping!)
